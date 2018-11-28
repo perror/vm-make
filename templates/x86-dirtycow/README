@@ -1,0 +1,12 @@
+			DirtyCow Kernel Flaw Template
+			=============================
+
+This template will set-up a VM with an x86 (32-bit) Linux kernel
+vulnerable to the DirtyCow vulnerability.
+
+Beware, the kernel has been patched to compile with newer version of
+gcc (version 7+). You can find the patch in patches/ilog2_NaN.patch
+and more details about this patch at:
+
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=474c90156c8dcc2fa815e6716cc9394d7930cb9c
+
